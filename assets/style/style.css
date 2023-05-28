@@ -1,0 +1,159 @@
+/* START */
+body#starts {
+    background-color: #392657;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 70px;
+    top: -106px;
+}
+
+/*все страницы*/
+body {
+    background-color: #392657;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.menu {
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    text-decoration-color: #CC8BF2;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-size: 40px;
+    color: #ece7e7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*index1*/
+
+.aboutme {
+    display: flex;
+    padding: 20px;
+    margin: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration-color: #CC8BF2;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-size: 50px;
+    color: #5a7ddf;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#about0 {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    left: 150px;
+    top: 100px;
+}
+
+.about2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration-color: #CC8BF2;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-size: 30px;
+    color: #4d57e4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*index2*/
+.info {
+    display: flex;
+    padding: 20px;
+    margin: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#info0 {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    left: 350px;
+    top: 240px;
+}
+
+.info1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration-color: #CC8BF2;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-size: 20px;
+    color: #5a7ddf;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration-color: #CC8BF2;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-size: 20px;
+    color: #4d57e4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*index3*/
+.index3 {
+    flex-grow: 1;
+    display: flex;
+
+}
+
+.portfolio {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.portfolio1 {
+    flex-basis: 20%;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio2 {
+    flex-basis: 50%;
+    background-color: rgb(173, 109, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio3 {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 109, 233);
+}
